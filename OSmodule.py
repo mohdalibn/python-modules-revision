@@ -45,3 +45,7 @@ print(os.environ.get('PATH'))  # Gets all the environment variables paths
 
 # To join to paths together in an optimal way
 os.path.join("C:/", "example.txt")  # Outputs C:/example.txt
+
+
+# To check whether a path exists
+os.path.exists("C://ThisIsAnExamplePath/")
