@@ -42,3 +42,6 @@ os.rename("Name.py", "NewName.py")
 
 # Reading/Getting Environment Variables
 print(os.environ.get('PATH'))  # Gets all the environment variables paths
+
+# To join to paths together in an optimal way
+os.path.join("C:/", "example.txt")  # Outputs C:/example.txt
