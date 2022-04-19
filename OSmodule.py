@@ -14,7 +14,7 @@ for function in dir(os):  # This presents the above line in a better way
 print(os.getcwd())  # This prints the Current Working Directory (CWD)
 
 # TO CHANGE THE CURRENT WORKING DIRECTORY
-# os.chdir("C://")
+os.chdir("C://")
 
 # To List all the files in the Current Working Directory
 print(os.listdir())  # You can specify the path in string in between the parenthesis
@@ -31,7 +31,11 @@ for file in os.listdir():
 
 
 # To Make a Folder in the CWD
-# os.mkdir("OSTESTFOLDER")
+os.mkdir("OSTESTFOLDER")
 
 # To Make Multiple Nested Directories
-# os.makedirs("This/That")
+os.makedirs("This/That")
+
+# To Rename a file in the CWD
+# The first argument is the current name of the file and the second one is the new name of the file
+os.rename("Name.py", "NewName.py")
