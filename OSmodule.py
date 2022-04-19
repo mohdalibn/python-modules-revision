@@ -39,3 +39,6 @@ os.makedirs("This/That")
 # To Rename a file in the CWD
 # The first argument is the current name of the file and the second one is the new name of the file
 os.rename("Name.py", "NewName.py")
+
+# Reading/Getting Environment Variables
+print(os.environ.get('PATH'))  # Gets all the environment variables paths
