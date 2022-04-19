@@ -51,7 +51,7 @@ os.path.join("C:/", "example.txt")  # Outputs C:/example.txt
 os.path.exists("C://ThisIsAnExamplePath/")  # This returns a boolean
 
 # To check whether the specified path is a file
-os.path.isfile("C://ThisIsAnExamplePath/")
+os.path.isfile("C://ThisIsAnExampleFile")
 
 # To check whether the specified path is a folder
-os.path.isdir("C://ThisIsAnExamplePath/")
+os.path.isdir("C://ThisIsAnExampleFolder")
